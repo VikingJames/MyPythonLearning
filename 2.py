@@ -147,3 +147,38 @@ print a
 a = [1,2,3]
 a[len(a):] = b#与上面的效果等同
 print a
+
+knigths = ['We','are','the','knights','who','say','ni']
+print knigths.index('who')
+
+number3 = [1,2,3,5,6,7]
+number3.insert(3,'four')
+print number3
+
+z = [1,2,3]
+z.pop()
+print z
+z.pop(0)
+print z
+
+w = ['to','be','or','not','to','be']
+w.remove('be')
+print w
+
+t = [1,2,3]
+t.reverse()
+print t
+
+xx = [4,6,2,1,7,9]
+xx.sort()
+print xx
+
+x2 = [4,6,2,1,7,9]
+y2 = x2#不能这么复制，要使用y2=x2[:]
+x2.sort()
+print x2
+print y2
+
+x3 = [4,6,2,1,7,9]
+y3 = sorted(x3)
+print y3
