@@ -182,3 +182,19 @@ print y2
 x3 = [4,6,2,1,7,9]
 y3 = sorted(x3)
 print y3
+
+
+x4 = ['aardvark','abalone','acme','add','aerate']
+x4.sort(key=len)
+print x4
+
+x5 = [4,6,2,1,7,9]
+x5.sort(reverse=True)#reverse=True代表需要反向排序
+print x5
+
+#2-4
+print '#2-4'
+print (1,2,3)
+
+print tuple([1,2,3])#tuple函数将一个序列转换为元组
+
