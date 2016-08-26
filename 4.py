@@ -108,3 +108,27 @@ print people.items()
 #iteritems返回的时迭代器
 it = people.iteritems()
 print list(it)
+
+d = {'x':1,'y':2}
+d.pop("x")
+print d
+
+url = {'url':'http://www.python.org','spam':0,'title':'Python Web Site'}
+print url.popitem()
+print url
+
+d ={}
+print d.setdefault('name','N/A')
+print d
+d['name'] = 'Gumby'
+print d.setdefault('name','N/A')
+print d
+
+d = {
+	'title':'Python Web Site',
+	'url':'http://www.python.org',
+	'changed':'Mar 14 22:09:15 MET 2008'
+}
+x = {'title':'Python Language Website'}
+d.update(x)
+print d
