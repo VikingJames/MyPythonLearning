@@ -114,7 +114,7 @@ d.pop("x")
 print d
 
 url = {'url':'http://www.python.org','spam':0,'title':'Python Web Site'}
-print url.popitem()
+print url.popitem()#此方法返回一个元组
 print url
 
 d ={}
