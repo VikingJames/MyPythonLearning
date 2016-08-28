@@ -110,7 +110,18 @@ for n in range(99,0,-1):
 		print root
 		break
 
-while True:
-	word = raw_input('Please enter a word: ')
-	if not word:break
-	print 'The word is %s' % word
+#while True:
+#	word = raw_input('Please enter a word: ')
+#	if not word:break
+#	print 'The word is %s' % word
+
+
+print [x*x for x in range(10) if x % 3 == 0]
+
+exec "print 'Hello world'"
+
+from math import sqrt
+scope = {}
+exec 'sqrt = 1' in scope
+print sqrt(4)
+print scope['sqrt']
